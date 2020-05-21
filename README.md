@@ -24,8 +24,13 @@ Exit and SSH into the instance again to have miniconda loaded
 
 2. Install the necessary packages to run the scripts
 ```
-conda install pytorch torchvision cudatoolkit=10.2 -c pytorch cython matplotlib numpy=1.17.0 cv2
-pip install pycocotools opencv-python pafy youtube-dl
+pip install cython
+pip install matplotlib
+pip install numpy=1.17.0
+pip install opencv-python
+pip install pafy
+pip install youtube-dl
+conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
 ```
 3. Clone this repository, run the training, and run the evaluation against new data
 
