@@ -26,7 +26,7 @@ Exit and SSH into the instance again to have miniconda loaded
 ```
 pip install cython
 pip install matplotlib
-pip install numpy=1.17.0
+pip install numpy==1.17.0
 pip install opencv-python
 pip install pafy
 pip install pycocotools
