@@ -29,6 +29,7 @@ pip install matplotlib
 pip install numpy=1.17.0
 pip install opencv-python
 pip install pafy
+pip install pycocotools
 pip install youtube-dl
 conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
 ```
